@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 function Navigation() {
   return (
@@ -30,12 +31,12 @@ function Navigation() {
               >
                 <ul className="blcok lg:flex 2xl:ml-20">
                   <li className="group relative">
-                    <a
-                      href="#home"
-                      className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
+                    <RouterLink
+                      to="/"
+                      className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Home
-                    </a>
+                    </RouterLink>
                   </li>
                   <li className="group relative">
                     <Link
@@ -51,17 +52,17 @@ function Navigation() {
                     </Link>
                   </li>
                   <li className="group relative">
-                    <Link
-                      activeClass="active"
-                      to="team"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                    >
-                      Team
-                    </Link>
+                      <Link
+                        activeClass="active"
+                        to="team"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
+                      >
+                        Team
+                      </Link>
                   </li>
                   <li className="group relative">
                     <Link
@@ -133,18 +134,19 @@ function Navigation() {
                 </span>
               </label>
               <div className="hidden sm:flex">
-                <a
-                  href="signin.html"
+                <RouterLink
+                  to="/login"
                   className="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
                 >
                   Sign In
-                </a>
-                <a
-                  href="signup.html"
-                  className="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
+                </RouterLink>
+
+                <RouterLink
+                  to="/register"
+                  className="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
                 >
                   Sign Up
-                </a>
+                </RouterLink>
               </div>
             </div>
           </div>
