@@ -5,9 +5,6 @@ import App from './App';
 import './styles/animate.css';
 import './styles/swiper-bundle.min.css';
 import './styles/tailwind.css';
-import './styles/main.js';
-// import './styles/swiper-bundle.min.js';
-// import './styles/wow.min.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>

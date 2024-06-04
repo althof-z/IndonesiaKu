@@ -24,7 +24,7 @@ function Navigation() {
   };
 
   return (
-    <div className="ud-header absolute sticky left-0 top-0 z-40 flex w-full items-center bg-transparent">
+    <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent">
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
