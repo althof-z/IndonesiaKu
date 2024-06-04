@@ -42,7 +42,7 @@ function FeatureSection() {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary">
-                Learn More
+                Selengkap
               </a>
             </div>
           </div>
@@ -70,7 +70,7 @@ function FeatureSection() {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary">
-                Learn More
+                Selengkap
               </a>
             </div>
           </div>
@@ -130,7 +130,7 @@ function FeatureSection() {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary">
-                Learn More
+                Selengkap
               </a>
             </div>
           </div>

@@ -1452,6 +1452,10 @@ body {
   --tw-bg-opacity: 0.2;
 }
 
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }

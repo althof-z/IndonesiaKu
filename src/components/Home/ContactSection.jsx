@@ -9,10 +9,10 @@ function ContactSection() {
             <div className="ud-contact-content-wrapper">
               <div className="ud-contact-title mb-12 lg:mb-[150px]">
                 <span className="mb-6 block text-base font-medium text-dark dark:text-white">
-                  CONTACT US
+                  KONTAK KAMI
                 </span>
                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Lets talk about your problem.
+                  ceritakan masalahmu
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -30,10 +30,10 @@ function ContactSection() {
                   </div>
                   <div>
                     <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      Our Location
+                      Lokasi Kami
                     </h5>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
+                      Jalan. Canggu, Kec. Canggu, Kab. Tangerang, Banten
                     </p>
                   </div>
                 </div>
@@ -50,13 +50,10 @@ function ContactSection() {
                   </div>
                   <div>
                     <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      How Can We Help?
+                      Bagaimana cara menghubungi kami
                     </h5>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
-                    </p>
-                    <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                      contact@yourdomain.com
+                      Indonesiaku@email.com
                     </p>
                   </div>
                 </div>
@@ -70,7 +67,7 @@ function ContactSection() {
               "
             >
               <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
-                Send us a Message
+                kirim pesan
               </h3>
               <form>
                 <div className="mb-[22px]">
@@ -78,7 +75,7 @@ function ContactSection() {
                     htmlFor="fullName"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Full Name*
+                    Nama lengkap*
                   </label>
                   <input
                     type="text"
@@ -120,7 +117,7 @@ function ContactSection() {
                     htmlFor="message"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Message*
+                    Pesan*
                   </label>
                   <textarea
                     name="message"
@@ -134,7 +131,7 @@ function ContactSection() {
                     type="submit"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark"
                   >
-                    Send
+                    Kirim
                   </button>
                 </div>
               </form>

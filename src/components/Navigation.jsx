@@ -69,7 +69,7 @@ function Navigation() {
                       to="/"
                       className="ud-menu-scroll mx-8 flex py-2 text-base font-medium group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text lg:group-hover:text lg:group-hover:opacity-70 xl:ml-10"
                     >
-                      Home
+                      Beranda
                     </RouterLink>
                   </li>
                   <li className="group relative">
@@ -77,7 +77,7 @@ function Navigation() {
                       onClick={() => handleScrollLinkClick('about')}
                       className="ud-menu-scroll mx-8 flex py-2 text-base font-medium group-hover:text-primary dark:text lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text lg:group-hover:text lg:group-hover:opacity-70 xl:ml-10"
                     >
-                      About
+                      Tentang
                     </button>
                   </li>
                   <li className="group relative">
@@ -101,7 +101,7 @@ function Navigation() {
                       onClick={() => handleScrollLinkClick('contact')}
                       className="ud-menu-scroll mx-8 flex py-2 text-base font-medium group-hover:text-primary dark:text lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text lg:group-hover:text lg:group-hover:opacity-70 xl:ml-10"
                     >
-                      Contact
+                      Kontak
                     </button>
                   </li>
                 </ul>
@@ -113,14 +113,14 @@ function Navigation() {
                   to="/login"
                   className="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
                 >
-                  Sign In
+                  Masuk
                 </RouterLink>
 
                 <RouterLink
                   to="/register"
                   className="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
                 >
-                  Sign Up
+                  Daftar
                 </RouterLink>
               </div>
             </div>
