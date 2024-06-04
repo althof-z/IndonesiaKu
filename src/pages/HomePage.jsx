@@ -14,11 +14,9 @@ function HomePage() {
       <HeroSection />
       <FeatureSection />
       <AboutSection />
-      <CTASection />
       <FAQSection />
       <TeamSection />
       <ContactSection />
-      <BrandSection />
       <Footer />
 
 
