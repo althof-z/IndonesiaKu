@@ -44,7 +44,7 @@ function LoginPage() {
       {/*  Banner Section End */}
 
       {/*  Forms Section Start */}
-      <section className="bg-[#F4F7FF] py-14 lg:py-20 dark:bg-dark">
+      <section className="bg-[#F4F7FF] py-14 lg:py-20 dark:bg-dark w-full">
         <div className="container">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
@@ -52,23 +52,6 @@ function LoginPage() {
                 className="wow fadeInUp relative mx-auto max-w-[525px] overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-14 px-8 text-center sm:px-12 md:px-[60px]"
                 data-wow-delay=".15s"
               >
-                <div className="mb-10 text-center">
-                  <a
-                    href="javascript:void(0)"
-                    className="mx-auto inline-block max-w-[160px]"
-                  >
-                    <img
-                      src="assets/images/logo/logo.svg"
-                      alt="logo"
-                      className="dark:hidden"
-                    />
-                    <img
-                      src="assets/images/logo/logo-white.svg"
-                      alt="logo"
-                      className="hidden dark:block"
-                    />
-                  </a>
-                </div>
                 <LoginInput />
                 <span className="relative block text-center z-1 mb-7">
                   <span className="absolute left-0 block w-full h-px -z-1 top-1/2 bg-stroke dark:bg-dark-3"></span>

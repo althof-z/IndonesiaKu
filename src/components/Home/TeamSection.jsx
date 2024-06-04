@@ -30,9 +30,9 @@ function TeamSection() {
             >
               <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                 <img
-                  src="../../../public/img/team-1.jpg"
+                  src="../../../public/img/yondra.jpg"
                   alt="team image"
-                  className="h-[120px] w-[120px] rounded-full"
+                  className="h-[120px] w-[120px] rounded-full object-cover"
                 />
                 <span
                   className="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"
@@ -121,7 +121,7 @@ function TeamSection() {
             >
               <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                 <img
-                  src="/images/team/team-2.jpg"
+                  src="../../../public/img/image.png"
                   alt="team image"
                   className="h-[120px] w-[120px] rounded-full"
                 />
@@ -212,7 +212,7 @@ function TeamSection() {
             >
               <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                 <img
-                  src="/images/team/team-3.jpg"
+                  src="../../../public/img/althof.png"
                   alt="team image"
                   className="h-[120px] w-[120px] rounded-full"
                 />

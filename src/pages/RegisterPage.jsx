@@ -52,23 +52,6 @@ function RegisterPage() {
                 className="wow fadeInUp relative mx-auto max-w-[525px] overflow-hidden rounded-xl shadow-form bg-white dark:bg-dark-2 py-14 px-8 text-center sm:px-12 md:px-[60px]"
                 data-wow-delay=".15s"
               >
-                <div className="mb-10 text-center">
-                  <a
-                    href="javascript:void(0)"
-                    className="mx-auto inline-block max-w-[160px]"
-                  >
-                    <img
-                      src="assets/images/logo/logo.svg"
-                      alt="logo"
-                      className="dark:hidden"
-                    />
-                    <img
-                      src="assets/images/logo/logo-white.svg"
-                      alt="logo"
-                      className="hidden dark:block"
-                    />
-                  </a>
-                </div>
                 <RegisterInput />
                 <span className="relative block text-center z-1 mb-7">
                   <span className="absolute left-0 block w-full h-px -z-1 top-1/2 bg-stroke dark:bg-dark-3"></span>
