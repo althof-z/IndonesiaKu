@@ -1,7 +1,5 @@
 import Footer from '../components/Footer';
 import AboutSection from '../components/Home/AboutSection';
-import BrandSection from '../components/Home/BrandSection';
-import CTASection from '../components/Home/CTASection';
 import ContactSection from '../components/Home/ContactSection';
 import FAQSection from '../components/Home/FAQSection';
 import FeatureSection from '../components/Home/FeatureSection';

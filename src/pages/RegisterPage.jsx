@@ -1,17 +1,18 @@
 import RegisterInput from '../components/RegisterInput';
+import { Link as RouterLink } from 'react-router-dom';
 
 function RegisterPage() {
   return (
     <>
       {/* Banner Section Start */}
-      <div className="relative z-10 overflow-hidden pt-[120px] pb-[60px] md:pt-[130px] lg:pt-[160px] dark:bg-dark">
+      <div className="relative overflow-hidden pt-50 bg-[#F4F7FF] bg dark:bg-dark">
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-stroke/0 via-stroke dark:via-dark-3 to-stroke/0"></div>
         <div className="container">
           <div className="flex flex-wrap items-center -mx-4">
             <div className="w-full px-4">
               <div className="text-center">
                 <h1 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]">
-                  Sign Up Page
+                  Sign up Page
                 </h1>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
                   There are many variations of passages of Lorem Ipsum
@@ -20,12 +21,7 @@ function RegisterPage() {
 
                 <ul className="flex items-center justify-center gap-[10px]">
                   <li>
-                    <a
-                      href="index.html"
-                      className="flex items-center gap-[10px] text-base font-medium text-dark dark:text-white"
-                    >
-                      Home
-                    </a>
+                    <RouterLink to="/" className='text-base font-medium text-body-color'>Home</RouterLink>
                   </li>
                   <li>
                     <a
@@ -147,12 +143,12 @@ function RegisterPage() {
 
                 <p className="text-base text-body-secondary">
                   Already have an account?
-                  <a
-                    href="signin.html"
+                  <RouterLink
+                    to="/login"
                     className="text-primary hover:underline"
                   >
                     Sign In
-                  </a>
+                  </RouterLink>
                 </p>
 
                 <div>
