@@ -141,20 +141,8 @@ function RegisterPage() {
                 </ul>
 
                 <p className="mb-4 text-base text-body-secondary">
-                  By creating an account you are agree with our
-                  <a
-                    href="javascript:void(0)"
-                    className="text-primary hover:underline"
-                  >
-                    Privacy
-                  </a>
-                  and
-                  <a
-                    href="javascript:void(0)"
-                    className="text-primary hover:underline"
-                  >
-                    Policy
-                  </a>
+                  By creating an account you are agree with our Privacy and
+                  Policy
                 </p>
 
                 <p className="text-base text-body-secondary">
