@@ -1,13 +1,14 @@
 import Navigation from './components/Navigation';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 
 function App() {
+  const location = useLocation();
   return (
     <div className="app">
-      <Navigation />
+      {location.pathname !== '/login' && location.pathname !== '/register' && <Navigation />}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />

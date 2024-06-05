@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /*
 ! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
@@ -994,6 +997,10 @@ body {
   height: 100%;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .h-px{
   height: 1px;
 }
@@ -1044,6 +1051,10 @@ body {
 
 .w-full{
   width: 100%;
+}
+
+.w-screen{
+  width: 100vw;
 }
 
 .w-px{
@@ -1441,6 +1452,10 @@ body {
   --tw-bg-opacity: 0.2;
 }
 
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1688,6 +1703,10 @@ body {
   padding-top: 5rem;
 }
 
+.pt-50{
+  padding-top: 50px;
+}
+
 .pt-\[120px\]{
   padding-top: 120px;
 }
@@ -1751,6 +1770,10 @@ body {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-black{
+  color: #000;
 }
 
 .font-bold{
