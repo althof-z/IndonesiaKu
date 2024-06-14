@@ -1893,6 +1893,10 @@ body {
   --tw-text-opacity: 0.7;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -2544,6 +2548,9 @@ body {
 
   .sm\:leading-snug{
     line-height: 1.375;
+  }
+  .sm\:flex-row{
+    flex-direction: row;
   }
 }
 
