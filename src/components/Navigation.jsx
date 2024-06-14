@@ -1,5 +1,5 @@
 import { scroller } from 'react-scroll';
-import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import { Link, Link as RouterLink, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function Navigation() {
@@ -42,11 +42,21 @@ function Navigation() {
   };
 
   return (
-    <div className={`ud-header py-5 lg:py-0 absolute left-0 top-0 z-40 flex w-full items-center  ${isScrolled ? 'sticky lg:text-dark' : 'bg-transparent lg:text-white'}`}>
+    <div
+      className={`ud-header py-5 lg:py-0 absolute left-0 top-0 z-40 flex w-full items-center  ${
+        isScrolled ? 'sticky lg:text-dark' : 'bg-transparent lg:text-white'
+      }`}
+    >
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
-            <h1 className={`text-2xl font-bold ${isScrolled ? 'text-dark' : 'text-white'}`}>Indonesia<span className='text-primary'>Ku</span></h1>
+            <h1
+              className={`text-2xl font-bold ${
+                isScrolled ? 'text-dark' : 'text-white'
+              }`}
+            >
+              Indonesia<span className="text-primary">Ku</span>
+            </h1>
           </div>
           <div className="flex w-full items-center justify-between px-4">
             <div>
@@ -61,7 +71,9 @@ function Navigation() {
               </button>
               <nav
                 id="navbarCollapse"
-                className={`absolute right-4 top-full ${showMenu ? 'block' : 'hidden'} w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent  lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6`}
+                className={`absolute right-4 top-full ${
+                  showMenu ? 'block' : 'hidden'
+                } w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent  lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6`}
               >
                 <ul className="block lg:flex 2xl:ml-20">
                   <li className="group relative">
@@ -109,19 +121,12 @@ function Navigation() {
             </div>
             <div className="flex items-center justify-end pr-16 lg:pr-0">
               <div className={`hidden sm:flex`}>
-                <RouterLink
-                  to="/login"
-                  className="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
+                <Link
+                  to={'/destination'}
+                  className="inline-flex items-center justify-center rounded-md bg-white px-5 py-[10px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color"
                 >
-                  Masuk
-                </RouterLink>
-
-                <RouterLink
-                  to="/register"
-                  className="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
-                >
-                  Daftar
-                </RouterLink>
+                  Jelajahi Indonesia
+                </Link>
               </div>
             </div>
           </div>

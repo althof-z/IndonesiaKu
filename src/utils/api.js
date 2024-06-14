@@ -5,7 +5,9 @@ const api = (() => {
 
   function getAccessToken() {
     return localStorage.getItem('accessToken');
-  }
+    }
+    
+    
 
   return {
     putAccessToken,
