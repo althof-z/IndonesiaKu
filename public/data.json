@@ -4,7 +4,12 @@
       "id": "dest-jabar-1",
       "title": "Kawah Putih",
       "body": "Kawah Putih adalah sebuah kawah vulkanik yang terkenal dengan airnya yang berwarna putih kehijauan yang memukau. Terletak di pegunungan, kawah ini menawarkan pemandangan alam yang sangat indah dan menenangkan. Kawah Putih sering dikunjungi oleh wisatawan yang ingin menikmati keindahan alam, melakukan fotografi, dan menghirup udara segar pegunungan. Suhu di sekitar kawah cukup dingin, sehingga disarankan untuk membawa pakaian hangat.",
-      "imageLink": "https://example.com/kawah_putih.jpg",
+      "imageLink": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a5/28/9e/photo0jpg.jpg?w=1200&h=-1&s=1",
+      "imageLinks": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/0f/e8/16/caption.jpg?w=1200&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/41/12/ab/mount-bromo.jpg?w=600&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/1f/f4/1f/mount-bromo-gunung-bromo.jpg?w=1200&h=-1&s=1"
+      ],
       "location": "Jawa Barat",
       "mapLink": "https://goo.gl/maps/7Y2Jb9o5F7z"
     },
@@ -13,6 +18,11 @@
       "title": "Tangkuban Perahu",
       "body": "Tangkuban Perahu adalah gunung berapi yang terkenal dengan bentuknya yang menyerupai perahu terbalik. Gunung ini merupakan salah satu tujuan wisata populer di Lembang, Bandung. Pengunjung dapat mendaki hingga ke bibir kawah dan melihat asap belerang yang mengepul dari kawah. Di sekitar area, terdapat juga pemandian air panas dan kebun teh yang menambah daya tarik wisata ini. Tangkuban Perahu memiliki legenda yang terkenal di masyarakat Sunda.",
       "imageLink": "https://example.com/tangkuban_perahu.jpg",
+      "imageLinks": [
+        "https://example.com/tangkuban_perahu1.jpg",
+        "https://example.com/tangkuban_perahu2.jpg",
+        "https://example.com/tangkuban_perahu3.jpg"
+      ],
       "location": "Jawa Barat",
       "mapLink": "https://goo.gl/maps/ds5HJ5wE6Pz"
     },
@@ -21,6 +31,11 @@
       "title": "Pantai Pangandaran",
       "body": "Pantai Pangandaran adalah pantai yang terkenal dengan pasir putihnya yang bersih dan ombak yang cocok untuk kegiatan surfing. Pantai ini menawarkan berbagai aktivitas wisata air seperti berenang, snorkeling, dan naik banana boat. Selain itu, Pantai Pangandaran juga dikenal dengan keindahan matahari terbenamnya yang memukau. Di sekitar pantai, terdapat banyak penginapan, restoran, dan pasar ikan yang menjual berbagai hasil laut segar. Pantai ini sering dijadikan tempat untuk acara festival dan kompetisi surfing.",
       "imageLink": "https://example.com/pantai_pangandaran.jpg",
+      "imageLinks": [
+        "https://example.com/pantai_pangandaran1.jpg",
+        "https://example.com/pantai_pangandaran2.jpg",
+        "https://example.com/pantai_pangandaran3.jpg"
+      ],
       "location": "Jawa Barat",
       "mapLink": "https://goo.gl/maps/9Tf6A8P4LsS"
     },
@@ -29,6 +44,11 @@
       "title": "Curug Cikaso",
       "body": "Curug Cikaso adalah air terjun yang menakjubkan dengan tiga aliran air yang deras, dikelilingi oleh hutan hijau yang asri. Air terjun ini memiliki ketinggian sekitar 80 meter dan lebar sekitar 100 meter. Keindahan alam di sekitar Curug Cikaso sangat memanjakan mata dan sering dijadikan sebagai lokasi fotografi alam. Pengunjung dapat menikmati keindahan air terjun dari dekat dengan berjalan kaki atau naik perahu tradisional yang disediakan oleh penduduk setempat.",
       "imageLink": "https://example.com/curug_cikaso.jpg",
+      "imageLinks": [
+        "https://example.com/curug_cikaso1.jpg",
+        "https://example.com/curug_cikaso2.jpg",
+        "https://example.com/curug_cikaso3.jpg"
+      ],
       "location": "Jawa Barat",
       "mapLink": "https://goo.gl/maps/H9GJ9rWzGZq"
     },
@@ -37,6 +57,11 @@
       "title": "Green Canyon",
       "body": "Green Canyon, atau dikenal juga sebagai Cukang Taneuh, adalah sungai dengan air berwarna hijau toska yang mengalir melalui tebing-tebing tinggi yang indah. Tempat ini menawarkan pengalaman wisata yang unik dengan menyusuri sungai menggunakan perahu kayu kecil. Pengunjung dapat menikmati pemandangan tebing yang menjulang tinggi, stalaktit dan stalakmit yang menakjubkan, serta berenang di kolam alami. Green Canyon juga cocok untuk kegiatan body rafting yang menantang adrenalin.",
       "imageLink": "https://example.com/green_canyon.jpg",
+      "imageLinks": [
+        "https://example.com/green_canyon1.jpg",
+        "https://example.com/green_canyon2.jpg",
+        "https://example.com/green_canyon3.jpg"
+      ],
       "location": "Jawa Barat",
       "mapLink": "https://goo.gl/maps/4TgRJ7q6RzH"
     },
@@ -45,6 +70,11 @@
       "title": "Gunung Bromo",
       "body": "Gunung Bromo adalah salah satu gunung berapi paling terkenal di Indonesia, terletak di Taman Nasional Bromo Tengger Semeru. Gunung ini terkenal dengan pemandangan matahari terbitnya yang spektakuler. Pengunjung dapat mendaki ke puncak gunung dan melihat kawah yang aktif, serta menikmati pemandangan lautan pasir yang luas. Gunung Bromo juga merupakan tempat yang sakral bagi masyarakat Tengger yang sering mengadakan upacara adat di sini.",
       "imageLink": "https://example.com/gunung_bromo.jpg",
+      "imageLinks": [
+        "https://example.com/gunung_bromo1.jpg",
+        "https://example.com/gunung_bromo2.jpg",
+        "https://example.com/gunung_bromo3.jpg"
+      ],
       "location": "Jawa Timur",
       "mapLink": "https://goo.gl/maps/8J2FgB1E6zR"
     },
@@ -53,6 +83,11 @@
       "title": "Pantai Klayar",
       "body": "Pantai Klayar adalah pantai yang indah dengan pasir putih dan batu karang yang unik. Salah satu daya tarik utama pantai ini adalah seruling samudra, yaitu formasi batu karang yang mengeluarkan suara seperti seruling saat terkena ombak. Pantai Klayar juga memiliki air mancur alami yang bisa mencapai ketinggian beberapa meter. Keindahan alam pantai ini membuatnya menjadi tujuan wisata populer bagi wisatawan yang ingin menikmati pemandangan alam dan bersantai di tepi laut.",
       "imageLink": "https://example.com/pantai_klayar.jpg",
+      "imageLinks": [
+        "https://example.com/pantai_klayar1.jpg",
+        "https://example.com/pantai_klayar2.jpg",
+        "https://example.com/pantai_klayar3.jpg"
+      ],
       "location": "Jawa Timur",
       "mapLink": "https://goo.gl/maps/7H4R3T6F8jR"
     },
@@ -61,64 +96,104 @@
       "title": "Air Terjun Tumpak Sewu",
       "body": "Air Terjun Tumpak Sewu adalah salah satu air terjun terindah di Indonesia, dengan aliran air yang menyerupai tirai. Air terjun ini memiliki ketinggian sekitar 120 meter dan terletak di lereng Gunung Semeru. Pemandangan di sekitar air terjun sangat memukau, dengan vegetasi hijau yang subur dan tebing-tebing tinggi yang mengelilingi area tersebut. Pengunjung dapat menikmati keindahan air terjun dari berbagai sudut pandang, termasuk dari atas tebing maupun dari dasar air terjun.",
       "imageLink": "https://example.com/air_terjun_tumpak_sewu.jpg",
+      "imageLinks": [
+        "https://example.com/air_terjun_tumpak_sewu1.jpg",
+        "https://example.com/air_terjun_tumpak_sewu2.jpg",
+        "https://example.com/air_terjun_tumpak_sewu3.jpg"
+      ],
       "location": "Jawa Timur",
       "mapLink": "https://goo.gl/maps/9R5H7L4N8R2"
     },
     {
       "id": "dest-jatim-4",
       "title": "Pulau Sempu",
-      "body": "Pulau Sempu adalah sebuah pulau kecil yang terletak di selatan Malang, Jawa Timur. Pulau ini dikenal dengan Segara Anakan, sebuah laguna alami yang dikelilingi oleh tebing-tebing tinggi. Pulau Sempu menawarkan pengalaman wisata yang eksklusif dan menantang, karena pengunjung harus melakukan trekking melalui hutan untuk mencapai laguna tersebut. Keindahan alam yang belum terjamah menjadikan Pulau Sempu sebagai surga tersembunyi yang menarik bagi para petualang.",
+      "body": "Pulau Sempu adalah sebuah pulau kecil yang terletak di selatan Malang, Jawa Timur. Pulau ini dikenal dengan Segara Anakan, sebuah laguna alami yang dikelilingi oleh tebing-tebing karst yang indah. Untuk mencapai pulau ini, pengunjung harus melakukan perjalanan dengan perahu dan kemudian berjalan kaki melalui hutan. Pulau Sempu menawarkan pengalaman wisata alam yang luar biasa dengan pemandangan yang masih alami dan asri.",
       "imageLink": "https://example.com/pulau_sempu.jpg",
+      "imageLinks": [
+        "https://example.com/pulau_sempu1.jpg",
+        "https://example.com/pulau_sempu2.jpg",
+        "https://example.com/pulau_sempu3.jpg"
+      ],
       "location": "Jawa Timur",
-      "mapLink": "https://goo.gl/maps/5J8G6K9N1P2"
+      "mapLink": "https://goo.gl/maps/3J7R6R8G8jP"
     },
     {
       "id": "dest-jatim-5",
-      "title": "Pantai Balekambang",
-      "body": "Pantai Balekambang adalah pantai yang terkenal dengan tiga pulau kecil yang berada di dekat pantai, yaitu Pulau Ismoyo, Pulau Anoman, dan Pulau Wisanggeni. Di Pulau Ismoyo terdapat sebuah pura yang sering digunakan untuk upacara keagamaan umat Hindu. Pantai Balekambang memiliki pasir putih dan ombak yang tenang, membuatnya cocok untuk berenang dan bermain air. Pemandangan matahari terbenam di pantai ini juga sangat memukau.",
-      "imageLink": "https://example.com/pantai_balekambang.jpg",
+      "title": "Candi Penataran",
+      "body": "Candi Penataran adalah kompleks candi Hindu terbesar di Jawa Timur, yang terletak di Blitar. Candi ini dibangun pada masa kerajaan Majapahit dan digunakan sebagai tempat pemujaan. Kompleks Candi Penataran terdiri dari beberapa bangunan candi dengan relief-relief yang indah dan penuh dengan nilai sejarah. Tempat ini merupakan salah satu situs arkeologi penting yang sering dikunjungi oleh wisatawan yang tertarik dengan sejarah dan budaya Indonesia.",
+      "imageLink": "https://example.com/candi_penataran.jpg",
+      "imageLinks": [
+        "https://example.com/candi_penataran1.jpg",
+        "https://example.com/candi_penataran2.jpg",
+        "https://example.com/candi_penataran3.jpg"
+      ],
       "location": "Jawa Timur",
-      "mapLink": "https://goo.gl/maps/8F5G3J2N7Q3"
+      "mapLink": "https://goo.gl/maps/5K7F8R9H3zS"
     },
     {
       "id": "dest-jateng-1",
       "title": "Candi Borobudur",
-      "body": "Candi Borobudur adalah candi Buddha terbesar di dunia dan merupakan salah satu situs warisan dunia UNESCO. Candi ini dibangun pada abad ke-8 dan memiliki arsitektur yang sangat megah dengan relief-relief yang menceritakan ajaran Buddha. Setiap tahunnya, Candi Borobudur dikunjungi oleh ribuan wisatawan dari seluruh dunia yang ingin melihat keindahan dan keagungan candi ini. Borobudur juga menjadi tempat perayaan Waisak yang diadakan setiap tahun.",
+      "body": "Candi Borobudur adalah candi Buddha terbesar di dunia yang terletak di Magelang, Jawa Tengah. Candi ini dibangun pada abad ke-9 dan merupakan salah satu situs warisan dunia UNESCO. Borobudur terdiri dari enam platform berbentuk bujur sangkar dengan tiga platform melingkar di atasnya, serta dihiasi dengan relief dan patung Buddha yang indah. Candi ini merupakan tujuan wisata yang sangat populer bagi wisatawan domestik maupun internasional.",
       "imageLink": "https://example.com/candi_borobudur.jpg",
+      "imageLinks": [
+        "https://example.com/candi_borobudur1.jpg",
+        "https://example.com/candi_borobudur2.jpg",
+        "https://example.com/candi_borobudur3.jpg"
+      ],
       "location": "Jawa Tengah",
-      "mapLink": "https://goo.gl/maps/4G8J7L9R2T2"
+      "mapLink": "https://goo.gl/maps/1H7G8F2R4zP"
     },
     {
       "id": "dest-jateng-2",
       "title": "Dieng Plateau",
-      "body": "Dieng Plateau adalah dataran tinggi yang terletak di Jawa Tengah dan terkenal dengan pemandangan alamnya yang memukau serta udara yang sejuk. Dieng Plateau memiliki berbagai objek wisata seperti kawah vulkanik, telaga warna, dan candi-candi kuno. Selain itu, Dieng juga dikenal dengan pertanian kentang dan carica yang melimpah. Pemandangan matahari terbit dari Bukit Sikunir menjadi salah satu daya tarik utama di Dieng.",
+      "body": "Dieng Plateau adalah dataran tinggi yang terletak di Jawa Tengah dan dikenal dengan keindahan alamnya serta situs-situs candi kuno. Dieng Plateau menawarkan pemandangan pegunungan, kawah vulkanik, dan telaga berwarna yang memukau. Selain itu, kawasan ini juga terkenal dengan candi-candi Hindu seperti Candi Arjuna dan Candi Bima yang merupakan peninggalan dari kerajaan Mataram Kuno. Dieng Plateau sering dijadikan tempat untuk festival budaya dan kegiatan pendakian.",
       "imageLink": "https://example.com/dieng_plateau.jpg",
+      "imageLinks": [
+        "https://example.com/dieng_plateau1.jpg",
+        "https://example.com/dieng_plateau2.jpg",
+        "https://example.com/dieng_plateau3.jpg"
+      ],
       "location": "Jawa Tengah",
-      "mapLink": "https://goo.gl/maps/5T7J8L2R8T1"
+      "mapLink": "https://goo.gl/maps/6H8J7G8R9pP"
     },
     {
       "id": "dest-jateng-3",
-      "title": "Karimunjawa",
-      "body": "Karimunjawa adalah kepulauan yang terletak di Laut Jawa dan terdiri dari 27 pulau kecil. Karimunjawa dikenal dengan keindahan bawah lautnya yang menakjubkan, menjadikannya destinasi favorit untuk snorkeling dan diving. Air laut yang jernih dan terumbu karang yang beragam menarik banyak wisatawan untuk menjelajahi keindahan alam bawah laut Karimunjawa. Pulau-pulau ini juga memiliki pantai pasir putih yang indah dan suasana yang tenang.",
-      "imageLink": "https://example.com/karimunjawa.jpg",
+      "title": "Kota Lama Semarang",
+      "body": "Kota Lama Semarang adalah kawasan bersejarah di pusat kota Semarang yang memiliki banyak bangunan kolonial Belanda. Kawasan ini sering dijuluki sebagai 'Little Netherland' karena arsitektur bangunannya yang khas dan terawat dengan baik. Kota Lama Semarang menawarkan berbagai destinasi wisata menarik seperti Gereja Blenduk, Stasiun Tawang, dan Taman Srigunting. Kawasan ini juga sering dijadikan tempat untuk acara seni dan budaya.",
+      "imageLink": "https://example.com/kota_lama_semarang.jpg",
+      "imageLinks": [
+        "https://example.com/kota_lama_semarang1.jpg",
+        "https://example.com/kota_lama_semarang2.jpg",
+        "https://example.com/kota_lama_semarang3.jpg"
+      ],
       "location": "Jawa Tengah",
-      "mapLink": "https://goo.gl/maps/6T8J9L1P9R3"
+      "mapLink": "https://goo.gl/maps/2H7J8G9R9pP"
     },
     {
       "id": "dest-jateng-4",
-      "title": "Lawang Sewu",
-      "body": "Lawang Sewu adalah bangunan bersejarah yang terletak di Semarang, Jawa Tengah. Bangunan ini dikenal dengan arsitekturnya yang indah dan memiliki banyak pintu, sesuai dengan namanya yang berarti 'seribu pintu'. Lawang Sewu awalnya digunakan sebagai kantor perusahaan kereta api pada masa kolonial Belanda. Saat ini, Lawang Sewu menjadi salah satu destinasi wisata sejarah yang populer, dengan tur yang menawarkan cerita-cerita mistis dan sejarah bangunan tersebut.",
-      "imageLink": "https://example.com/lawang_sewu.jpg",
+      "title": "Karimunjawa",
+      "body": "Karimunjawa adalah gugusan pulau-pulau kecil yang terletak di Laut Jawa dan merupakan bagian dari Kabupaten Jepara, Jawa Tengah. Kepulauan ini dikenal dengan keindahan bawah lautnya yang memukau, dengan terumbu karang yang berwarna-warni dan berbagai jenis ikan tropis. Karimunjawa menawarkan berbagai aktivitas wisata seperti snorkeling, diving, dan island hopping. Pulau-pulau ini juga memiliki pantai-pantai pasir putih yang indah dan masih alami.",
+      "imageLink": "https://example.com/karimunjawa.jpg",
+      "imageLinks": [
+        "https://example.com/karimunjawa1.jpg",
+        "https://example.com/karimunjawa2.jpg",
+        "https://example.com/karimunjawa3.jpg"
+      ],
       "location": "Jawa Tengah",
-      "mapLink": "https://goo.gl/maps/7F8J1K2Q1S2"
+      "mapLink": "https://goo.gl/maps/3H8J7G9R9pP"
     },
     {
       "id": "dest-jateng-5",
-      "title": "Gunung Merbabu",
-      "body": "Gunung Merbabu adalah gunung berapi yang tidak aktif dan terletak di Jawa Tengah. Gunung ini populer di kalangan pendaki karena menawarkan pemandangan alam yang indah dan jalur pendakian yang menantang. Dari puncak Gunung Merbabu, pendaki dapat melihat pemandangan beberapa gunung lain di sekitarnya, termasuk Gunung Merapi dan Gunung Sumbing. Suasana di puncak sangat sejuk dan menyegarkan, menjadikan Gunung Merbabu sebagai tujuan favorit untuk kegiatan mendaki dan berkemah.",
-      "imageLink": "https://example.com/gunung_merbabu.jpg",
+      "title": "Lawang Sewu",
+      "body": "Lawang Sewu adalah gedung bersejarah di Semarang yang dibangun pada masa kolonial Belanda. Nama 'Lawang Sewu' berarti 'Seribu Pintu', merujuk pada banyaknya pintu dan jendela yang ada di gedung ini. Lawang Sewu merupakan salah satu ikon kota Semarang dan dikenal dengan arsitektur yang indah serta cerita-cerita mistis yang melingkupinya. Gedung ini sering dijadikan tempat untuk pameran seni, acara budaya, dan wisata sejarah.",
+      "imageLink": "https://example.com/lawang_sewu.jpg",
+      "imageLinks": [
+        "https://example.com/lawang_sewu1.jpg",
+        "https://example.com/lawang_sewu2.jpg",
+        "https://example.com/lawang_sewu3.jpg"
+      ],
       "location": "Jawa Tengah",
-      "mapLink": "https://goo.gl/maps/8H9J2K3L3R4"
+      "mapLink": "https://goo.gl/maps/4H7J8G9R9pP"
     }
   ]
 }

@@ -1,13 +1,14 @@
-import DestinationCard from '../components/destination/DestinationCard';
 import Navigation from '../components/destination/Nav';
 import DestinationList from '../components/DestinationList';
 import useCustomHook from '../hooks/customHooks';
-import { getDestinations } from '../utils/data';
+// import { getDestinations } from '../utils/data';
 
 export default function DestinationPage() {
   // const destinations = getDestinations();
 
   const { data } = useCustomHook();
+
+  console.log(data);
 
   return (
     <>
