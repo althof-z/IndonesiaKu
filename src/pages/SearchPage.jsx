@@ -14,7 +14,7 @@ export default function SearchPage() {
   if (query === null || query === '') {
     return (
       <>
-        <Navigation />
+        <Navigation page = {'wishlist'}>wishlist</Navigation>
         <div className="">
           <h1 className="text-xl lg:text-2xl text-center font-semibold mt-8">
             Hasil Pencarian Tidak Ditemukan
@@ -26,7 +26,7 @@ export default function SearchPage() {
 
   return (
     <>
-      <Navigation />
+      <Navigation page = {'wishlist'}>wishlist</Navigation>
       <div className="">
         <div className="px-4 mt-12 container">
           <div className="flex justify-between">

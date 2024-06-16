@@ -4,10 +4,9 @@ import api from '../utils/api';
 
 export default function WishlistPage() {
   const wishlist = api.getDestinationsFromLocalStorage();
-
   return (
     <>
-      <Navigation />
+      <Navigation page = {'destination'}>destination</Navigation>
       <div className="">
         <h1 className="text-xl lg:text-2xl text-center font-semibold mt-8">
           Wishlist

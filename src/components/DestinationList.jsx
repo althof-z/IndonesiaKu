@@ -12,7 +12,7 @@ function DestinationList({ destinations, location }) {
   console.log(filteredDestinations);
 
   return (
-    <ul>
+    <ul className='grid md:grid-cols-3'>
       {filteredDestinations.map((destination) => (
         <DestinationCard
           key={destination.id}

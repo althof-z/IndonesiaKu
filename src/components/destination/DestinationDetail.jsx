@@ -1,4 +1,3 @@
-import React from 'react';
 import useCustomHook from '../../hooks/customHooks';
 import { useParams, useNavigate } from 'react-router-dom';
 import api from '../../utils/api.js';
