@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 // import RegisterPage from './pages/RegisterPage';
 import DestinationPage from './pages/DestinationPage';
 // import ProtectedRoute from './hooks/ProtectedRoutes';
+import SearchPage from './pages/SearchPage';
 import DetailPage from './pages/DetailPage';
 import Wishlist from './pages/WishlistPage';
 
@@ -16,7 +17,8 @@ function App() {
     <div className="app">
       {location.pathname !== '/destination' &&
         !isDetailPage &&
-        location.pathname !== '/wishlist' && <Navigation />}
+        location.pathname !== '/wishlist' &&
+        !location.pathname.startsWith('/search') && <Navigation />}
       
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -25,6 +27,7 @@ function App() {
         <Route path="/destination" element={<DestinationPage />} />
         <Route path="/detail/:id" element={<DetailPage />} />
         <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/search" element={<SearchPage />} />
       </Routes>
     </div>
   );

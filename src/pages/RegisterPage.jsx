@@ -17,11 +17,16 @@ function RegisterPage() {
 
                 <ul className="flex items-center justify-center gap-[10px]">
                   <li>
-                    <RouterLink to="/" className='text-base font-medium text-body-color'>Home</RouterLink>
+                    <RouterLink
+                      to="/"
+                      className="text-base font-medium text-body-color"
+                    >
+                      Home
+                    </RouterLink>
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href=""
                       className="flex items-center gap-[10px] text-base font-medium text-body-color"
                     >
                       <span className="text-body-color dark:text-dark-6">
@@ -58,7 +63,7 @@ function RegisterPage() {
                 <ul className="flex justify-between -mx-2 mb-9">
                   <li className="w-full px-2">
                     <a
-                      href="javascript:void(0)"
+                      href=""
                       className="flex h-11 items-center justify-center rounded-md bg-[#4064AC] transition hover:bg-opacity-90"
                     >
                       <svg
@@ -77,7 +82,7 @@ function RegisterPage() {
                   </li>
                   <li className="w-full px-2">
                     <a
-                      href="javascript:void(0)"
+                      href=""
                       className="flex h-11 items-center justify-center rounded-md bg-[#1C9CEA] transition hover:bg-opacity-90"
                     >
                       <svg
@@ -96,7 +101,7 @@ function RegisterPage() {
                   </li>
                   <li className="w-full px-2">
                     <a
-                      href="javascript:void(0)"
+                      href=""
                       className="flex h-11 items-center justify-center rounded-md bg-[#D64937] transition hover:bg-opacity-90"
                     >
                       <svg

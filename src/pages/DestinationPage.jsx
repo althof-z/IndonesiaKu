@@ -8,8 +8,6 @@ export default function DestinationPage() {
 
   const { data } = useCustomHook();
 
-  console.log(data);
-
   return (
     <>
       <Navigation />
@@ -23,7 +21,7 @@ export default function DestinationPage() {
             <p className="mr-3 cursor-pointer underline">view more</p>
           </div>
           <div className="flex flex-col sm:flex-row pt-">
-          <DestinationList destinations={data} location="Jawa Timur" />
+          <DestinationList destinations={data} location="jawa timur" />
           </div>
         </div>
         <div className="px-4 mt-12 container">
@@ -32,7 +30,7 @@ export default function DestinationPage() {
             <p className="mr-3 cursor-pointer underline">view more</p>
           </div>
           <div className="flex flex-col sm:flex-row pt-">
-          <DestinationList destinations={data} location="Jawa Barat" />
+          <DestinationList destinations={data} location="jawa barat" />
           </div>
         </div>
         <div className="px-4 mt-12 container">

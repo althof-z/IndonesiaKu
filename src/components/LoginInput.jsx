@@ -1,4 +1,3 @@
-import React from 'react';
 import useInput from '../hooks/useInput';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';

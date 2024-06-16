@@ -1,4 +1,3 @@
-import React from 'react';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import useInput from '../hooks/useInput';
 import { auth, db } from '../utils/firebase.config.js'; // Adjust the import based on your actual file structure

@@ -14,8 +14,7 @@ export default function WishlistPage() {
         </h1>
         <div className="px-4 mt-12 container">
           <div className="flex justify-between">
-            <h2 className="text-xl mb-8">your wishlist</h2>
-            <p className="mr-3 cursor-pointer underline">view more</p>
+            <h2 className="text-xl mb-8">wishlist anda</h2>
           </div>
           <div className="flex flex-col sm:flex-row pt-">
             <WishList wishlists={wishlist} />

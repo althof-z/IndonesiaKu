@@ -186,7 +186,7 @@ function TeamSection() {
                   Althof Zijan Putra Viandhi
                 </h4>
                 <p className="mb-5 text-sm text-body-color dark:text-dark-6">
-                  QA Engineer
+                  Frontend Engineer
                 </p>
                 <div className="flex items-center justify-center gap-5">
                   <a href="" className="text-dark-6 hover:text-primary">
