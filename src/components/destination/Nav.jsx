@@ -1,5 +1,5 @@
 import useInput from '../../hooks/useInput';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Navigation() {
   const [search, onSearchChange] = useInput('');

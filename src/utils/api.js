@@ -1,5 +1,3 @@
-import { get } from "react-scroll/modules/mixins/scroller";
-
 const api = (() => {
   function putAccessToken(accessToken) {
     localStorage.setItem('accessToken', accessToken);
@@ -21,12 +19,12 @@ const api = (() => {
 
   function isDestinationInLocalStorage(id) {
     const destinations = getDestinationsFromLocalStorage();
-    return destinations.some(destination => destination.id === id);
+    return destinations.some((destination) => destination.id === id);
   }
 
   function removeDestinationFromLocalStorage(id) {
     let destinations = getDestinationsFromLocalStorage();
-    destinations = destinations.filter(destination => destination.id !== id);
+    destinations = destinations.filter((destination) => destination.id !== id);
     localStorage.setItem('destinations', JSON.stringify(destinations));
   }
 
