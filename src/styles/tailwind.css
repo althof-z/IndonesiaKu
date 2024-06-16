@@ -993,6 +993,13 @@ body {
   height: 70px;
 }
 
+.h-\[700px\]{
+  height: 700px;
+}
+.h-\[500px\]{
+  height: 500px;
+}
+
 .h-full{
   height: 100%;
 }
@@ -1021,6 +1028,9 @@ body {
   width: 15rem;
 }
 
+.w-\[70px\]{
+  width: 70px;
+}
 .w-\[120px\]{
   width: 120px;
 }
@@ -1035,6 +1045,10 @@ body {
 
 .w-\[330px\]{
   width: 330px;
+}
+
+.w-\[500px\]{
+  width: 500px;
 }
 
 .w-\[34px\]{
@@ -2443,6 +2457,12 @@ body {
   .sm\:h-\[220px\]{
     height: 220px;
   }
+  .sm\:h-\[120px\]{
+    height: 120px;
+  }
+  .sm\:w-\[120px\]{
+    width: 120px;
+  }
 
   .sm\:h-\[400px\]{
     height: 400px;
@@ -2750,6 +2770,9 @@ body {
 
   .lg\:h-\[500px\]{
     height: 500px;
+  }
+  .lg\:h-\[700px\]{
+    height: 700px;
   }
 
   .lg\:w-1\/2{
