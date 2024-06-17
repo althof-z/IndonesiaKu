@@ -1,5 +1,5 @@
 import Navigation from '../components/destination/Nav';
-import DestinationList from '../components/DestinationList';
+import DestinationList from '../components/destination/DestinationList';
 import useCustomHook from '../hooks/customHooks';
 // import { getDestinations } from '../utils/data';
 

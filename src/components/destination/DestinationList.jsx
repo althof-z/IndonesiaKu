@@ -1,4 +1,4 @@
-import DestinationCard from './destination/DestinationCard';
+import DestinationCard from './DestinationCard';
 import PropTypes from 'prop-types';
 
 function DestinationList({ destinations, location }) {

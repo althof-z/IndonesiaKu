@@ -3,9 +3,8 @@
 ![IndonesiaKu](https://github.com/althof-z/IndonesiaKu/blob/main/public/img/indonesiaku.png)
 
 A platform dedicated to showcasing the beauty and diversity of Indonesia to the world. Explore tourist destinations in various provinces and an inspiring gallery of photos.
----
 
-## What I'm use here?
+## Build With
 
 - [React Js](https://nextjs.org/) as Framework.
 - [Tailwind CSS](https://tailwindcss.com/) as UI Library.
