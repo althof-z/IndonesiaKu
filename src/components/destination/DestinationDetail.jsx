@@ -28,7 +28,7 @@ function DestinationDetail() {
 
   if (!destination) {
     return (
-      <div className="container pt-20 flex flex-col justify-around sm:flex-row">
+      <div className="container pt-20 flex flex-col justify-around md:flex-row">
         <h1 className="text-2xl sm:text-3xl font-bold">
           Destination Tidak Ditemukan
         </h1>
@@ -37,7 +37,7 @@ function DestinationDetail() {
   }
 
   return (
-    <div className="container pt-20 flex flex-col justify-around sm:flex-row">
+    <div className="container pt-20 flex flex-col justify-around md:flex-row">
       <img
         className="rounded-lg h-[500px] lg:h-[700px] w-[500px] object-cover mb-3"
         src={destination.imageLink}
@@ -63,6 +63,7 @@ function DestinationDetail() {
         <div className="border-t-2 border-b-2 py-5">
           <h2 className="text-xl font-semibold">Location</h2>
           <iframe
+            className='w-full'
             width="520"
             height="400"
             frameBorder="0"

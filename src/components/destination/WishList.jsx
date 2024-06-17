@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function WishList({ wishlists }) {
   return (
-    <ul>
+    <ul className="grid md:grid-cols-3">
       {wishlists.map((wishlist) => (
         <DestinationCard key={wishlist.id} id={wishlist.id} {...wishlist} />
       ))}
