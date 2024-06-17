@@ -3,7 +3,7 @@ import useInput from '../../hooks/useInput';
 import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
-import { FaSearch } from 'react-icons/fa'; // Importing the FaSearch icon
+import { FaSearch } from 'react-icons/fa';
 
 export default function Navigation({ page, children }) {
   const [showSearch, setShowSearch] = useState(false);
@@ -31,7 +31,8 @@ export default function Navigation({ page, children }) {
 
   return (
     <div className="flex w-full bg-primary text-white p-4 justify-between items-center">
-      <Link to="/destination">
+      <Link to="/destination" className="flex items-center">
+        <img src="/img/logo.png" alt="Logo" className="w-5 h-5 px-2" />
         <h1
           className={`text-base md:text-[20px] font-bold md:block ${
             showSearch ? 'hidden' : ''
@@ -49,12 +50,11 @@ export default function Navigation({ page, children }) {
             value={search}
             onChange={onSearchChange}
           />
-
           <button
             onClick={handleSearchClick}
             className="bg-primary text-white px-4 py-2 rounded-lg flex items-center"
           >
-            <FaSearch className="mr-2" /> {/* Using FaSearch icon */}
+            <FaSearch className="mr-2" />
           </button>
         </div>
         <input
@@ -70,7 +70,7 @@ export default function Navigation({ page, children }) {
           className="md:hidden text-primary bg-white ml-2 px-4 py-2 rounded-lg"
           onClick={handleShowSearch}
         >
-          <FaSearch /> {/* Using FaSearch icon */}
+          <FaSearch />
         </button>
         <button
           className={`text-primary bg-white ml-2 px-4 md:block py-2 rounded-lg ${
