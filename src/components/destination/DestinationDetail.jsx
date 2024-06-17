@@ -63,7 +63,7 @@ function DestinationDetail() {
         <div className="border-t-2 border-b-2 py-5">
           <h2 className="text-xl font-semibold">Location</h2>
           <iframe
-            className='w-full'
+            className='w-full h-full'
             width="520"
             height="400"
             frameBorder="0"
