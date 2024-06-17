@@ -60,7 +60,7 @@ function CTASection() {
                         We have
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        Years of experience
+                        Years of 
                       </span>
                     </div>
                     <div>
