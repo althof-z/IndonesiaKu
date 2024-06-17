@@ -13,8 +13,8 @@ function SearchList({ destinations, location }) {
 
   if (filteredDestinations.length === 0) {
     return (
-      <div className="min-h-screen flex justify-center mb-5">
-        <h1 className="text-xl lg:text-2xl text-center font-semibold mt-8">
+      <div className="min-h-screen flex justify-center">
+        <h1 className="text-xl lg:text-2xl text-center font-semibold">
           Hasil Pencarian &quot;{location}&quot; Tidak Ditemukan
         </h1>
       </div>
@@ -26,7 +26,7 @@ function SearchList({ destinations, location }) {
       <div className="flex justify-between">
         <h2 className="text-xl mb-8">Hasil Pencarian &quot;{location}&quot;</h2>
       </div>{' '}
-      <div className="flex flex-col sm:flex-row pt-">
+      <div className="flex flex-col sm:flex-row pb-20">
         <ul className="grid md:grid-cols-3">
           {filteredDestinations.map((destination) => (
             <DestinationCard

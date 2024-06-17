@@ -1,5 +1,5 @@
 import Navigation from '../components/destination/Nav';
-import DestinationList from '../components/DestinationList';
+import DestinationList from '../components/destination/DestinationList';
 import useCustomHook from '../hooks/customHooks';
 // import { getDestinations } from '../utils/data';
 
@@ -17,19 +17,19 @@ export default function DestinationPage() {
         </h1>
         <div className="px-4 mt-12 container">
           <div className="flex justify-between">
-            <h2 className="text-xl mb-8">Jawa Timur</h2>
+            <h2 className="text-xl mb-2">Jawa Timur</h2>
           </div>
             <DestinationList destinations={data} location="jawa timur" />
         </div>
         <div className="px-4 mt-12 container">
           <div className="flex justify-between">
-            <h2 className="text-xl mb-8">Jawa Barat</h2>
+            <h2 className="text-xl mb-2">Jawa Barat</h2>
           </div>
             <DestinationList destinations={data} location="jawa barat" />
         </div>
         <div className="px-4 mt-12 container">
           <div className="flex justify-between">
-            <h2 className="text-xl mb-8">Jawa Tengah</h2>
+            <h2 className="text-xl mb-2">Jawa Tengah</h2>
           </div>
             <DestinationList destinations={data} location="Jawa Tengah" />
         </div>

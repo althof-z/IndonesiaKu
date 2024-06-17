@@ -1,7 +1,5 @@
-import Footer from '../components/Footer';
 import AboutSection from '../components/Home/AboutSection';
 import ContactSection from '../components/Home/ContactSection';
-import FAQSection from '../components/Home/FAQSection';
 import FeatureSection from '../components/Home/FeatureSection';
 import HeroSection from '../components/Home/HeroSection';
 import TeamSection from '../components/Home/TeamSection';
@@ -12,7 +10,6 @@ function HomePage() {
       <HeroSection />
       <FeatureSection />
       <AboutSection />
-      <FAQSection />
       <TeamSection />
       <ContactSection />
 

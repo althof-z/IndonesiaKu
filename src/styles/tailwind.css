@@ -403,6 +403,22 @@ Make sure disabled buttons don't get the pointer cursor.
   cursor: default;
 }
 
+/*  Scrollbar CSS */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: #a9a9a9;
+}
+
+
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
@@ -946,12 +962,16 @@ body {
 }
 
 .min-h-screen {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 
 .h-1\/2{
   height: 50%;
+}
+
+.h-5{
+  height: 2rem;
 }
 
 .h-10{
@@ -1015,6 +1035,11 @@ body {
 
 .h-px{
   height: 1px;
+}
+
+w-5{
+  width: 2rem;
+
 }
 
 .w-10{
@@ -1425,6 +1450,11 @@ body {
 .bg-gray-1{
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-gray-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity)); /* Even darker gray */
 }
 
 .bg-primary{
@@ -2148,52 +2178,14 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.common-carousel .swiper-button-next:after,
-.common-carousel .swiper-button-prev:after{
-  display: none;
+.left{
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
-.common-carousel .swiper-button-next,
-.common-carousel .swiper-button-prev{
-  position: static !important;
-  margin: 0px;
-  height: 3rem;
-  width: 3rem;
-  border-radius: 0.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(17 25 40 / var(--tw-text-opacity));
-  --tw-shadow: 0px 8px 15px 0px rgba(72, 72, 138, 0.08);
-  --tw-shadow-colored: 0px 8px 15px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  transition-duration: 200ms;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.common-carousel .swiper-button-next:hover,
-.common-carousel .swiper-button-prev:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-:is(.dark .common-carousel .swiper-button-next),:is(.dark 
-.common-carousel .swiper-button-prev){
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 25 40 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.common-carousel .swiper-button-next svg,
-.common-carousel .swiper-button-prev svg{
-  height: auto;
-  width: auto;
+.right{
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .placeholder\:text-body-color\/60::-moz-placeholder{
