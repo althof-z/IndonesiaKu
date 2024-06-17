@@ -24,7 +24,10 @@ function Footer() {
   };
 
   return (
-    <footer className="wow fadeInUp relative z-10 bg-[#090E34] pt-12 lg:pt-[400px]" data-wow-delay=".15s">
+    <footer
+      className="wow fadeInUp relative z-10 bg-[#090E34] pt-12 lg:pt-[400px]"
+      data-wow-delay=".15s"
+    >
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center justify-between">
           {/* First section (start) */}
@@ -36,9 +39,8 @@ function Footer() {
                 </h1>
               </Link>
               <p className="mb-8 max-w-[400px] text-base text-gray-7">
-                At IndonesiaKu, we leverage technology to craft engaging digital
-                experiences that unlock the wonders of Indonesian culture and
-                travel for you.
+                Jelajahi kekayaan budaya dan pesona wisata Indonesia di setiap
+                provinsi. Temukan inspirasi dan ciptakan momen tak terlupakan.
               </p>
             </div>
           </div>
@@ -48,7 +50,7 @@ function Footer() {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 self-end">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                About Us
+                Tentang Kami
               </h4>
               <ul>
                 <li onClick={() => handleScrollLinkClick('home')}>
@@ -56,14 +58,14 @@ function Footer() {
                     Beranda
                   </p>
                 </li>
-                <li  onClick={() => handleScrollLinkClick('features')}>
+                <li onClick={() => handleScrollLinkClick('features')}>
                   <p className="mb-3 inline-block text-base text-gray-7 hover:text-primary">
                     Layanan
                   </p>
                 </li>
                 <li onClick={() => handleScrollLinkClick('about')}>
                   <p className="mb-3 inline-block text-base text-gray-7 hover:text-primary">
-                    Tentang Kami
+                    Tujuan
                   </p>
                 </li>
               </ul>

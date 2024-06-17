@@ -31,7 +31,7 @@ export default function Navigation({ page, children }) {
 
   return (
     <div className="flex w-full bg-primary text-white p-4 justify-between items-center">
-      <Link to="/">
+      <Link to="/destination">
         <h1
           className={`text-base md:text-[20px] font-bold md:block ${
             showSearch ? 'hidden' : ''

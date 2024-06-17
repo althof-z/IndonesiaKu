@@ -1,8 +1,35 @@
-# React + Vite
+# IndonesiaKu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![IndonesiaKu](https://github.com/althof-z/IndonesiaKu/blob/main/public/img/indonesiaku.png)
 
-Currently, two official plugins are available:
+A platform dedicated to showcasing the beauty and diversity of Indonesia to the world. Explore tourist destinations in various provinces and an inspiring gallery of photos.
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What I'm use here?
+
+- [React Js](https://nextjs.org/) as Framework.
+- [Tailwind CSS](https://tailwindcss.com/) as UI Library.
+
+## How to use it?
+
+- Open [IndonesiaKu.vercel.app](https://IndonesiaKu.vercel.app/)
+- Discover your ideal destination effortlessly—search for it directly or explore by province.
+- Save your dream destinations to your wishlist and explore a variety of other captivating locales.
+
+
+## How to run it locally?
+```
+# Clone this repository
+git clone https://github.com/althof-z/IndonesiaKu.git
+
+# Go to the repository folder
+cd indonesiaku
+
+# Install Depedencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+* Open http://localhost:3000 with your browser to see the result
