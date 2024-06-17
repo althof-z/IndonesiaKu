@@ -1,5 +1,5 @@
 import { scroller } from 'react-scroll';
-import { Link, Link as RouterLink, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function Navigation() {
@@ -77,12 +77,12 @@ function Navigation() {
               >
                 <ul className="block lg:flex 2xl:ml-20">
                   <li className="group relative">
-                    <RouterLink
-                      to="/"
+                    <button
+                      onClick={() => handleScrollLinkClick('home')}
                       className="ud-menu-scroll mx-8 flex py-2 text-base font-medium group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text lg:group-hover:text lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Beranda
-                    </RouterLink>
+                    </button>
                   </li>
                   <li className="group relative">
                     <button

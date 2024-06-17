@@ -10,10 +10,10 @@ export default function DestinationPage() {
 
   return (
     <>
-      <Navigation page = {'wishlist'}>wishlist</Navigation>
-      <div className="">
+      <Navigation page = {'wishlist'}>WishList</Navigation>
+      <div className="pb-20">
         <h1 className="text-xl lg:text-2xl text-center font-semibold mt-8">
-          Destination Page
+          Destinasi Wisata Indonesia<span className="text-primary">Ku</span>
         </h1>
         <div className="px-4 mt-12 container">
           <div className="flex justify-between">
@@ -33,6 +33,9 @@ export default function DestinationPage() {
           </div>
             <DestinationList destinations={data} location="Jawa Tengah" />
         </div>
+        <h1 className="text-xl lg:text-2xl text-center font-semibold mt-8">
+          Provinsi Lain Segera Hadir
+        </h1>
       </div>
     </>
   );

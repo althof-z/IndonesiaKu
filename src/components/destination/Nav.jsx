@@ -2,6 +2,8 @@ import { useState } from 'react';
 import useInput from '../../hooks/useInput';
 import { Link, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { toast } from 'react-toastify';
+import { FaSearch } from 'react-icons/fa'; // Importing the FaSearch icon
 
 export default function Navigation({ page, children }) {
   const [showSearch, setShowSearch] = useState(false);
@@ -13,6 +15,10 @@ export default function Navigation({ page, children }) {
   };
 
   const handleSearchClick = () => {
+    if (search === '') {
+      toast.error('Isi kolom pencarian');
+      return;
+    }
     navigate(`/search?q=${search}`);
   };
 
@@ -21,28 +27,34 @@ export default function Navigation({ page, children }) {
       handleSearchClick();
     }
     setShowSearch(true);
-  }
+  };
 
   return (
-    <div className="flex  w-full bg-primary text-white p-4 justify-between items-center">
+    <div className="flex w-full bg-primary text-white p-4 justify-between items-center">
       <Link to="/">
-        <h1 className={`text-base md:text-[20px] font-bold md:block ${showSearch ? 'hidden' : ''}`}>IndonesiaKu</h1>
+        <h1
+          className={`text-base md:text-[20px] font-bold md:block ${
+            showSearch ? 'hidden' : ''
+          }`}
+        >
+          IndonesiaKu
+        </h1>
       </Link>
       <div className="flex mr-2">
-        <div className="hidden  md:flex flex-row bg-white px-3 py-2 rounded-md">
+        <div className="hidden md:flex flex-row bg-white px-3 py-2 rounded-md">
           <input
             type="text"
-            placeholder="Search..."
-            className="mr-4 text-black"
+            placeholder="Cari Provinsi atau Destinasi..."
+            className="px-2 mr-4 text-black"
             value={search}
             onChange={onSearchChange}
           />
 
           <button
             onClick={handleSearchClick}
-            className="bg-primary text-white px-4 py-2 rounded-lg"
+            className="bg-primary text-white px-4 py-2 rounded-lg flex items-center"
           >
-            Search
+            <FaSearch className="mr-2" /> {/* Using FaSearch icon */}
           </button>
         </div>
         <input
@@ -58,10 +70,12 @@ export default function Navigation({ page, children }) {
           className="md:hidden text-primary bg-white ml-2 px-4 py-2 rounded-lg"
           onClick={handleShowSearch}
         >
-          Search
+          <FaSearch /> {/* Using FaSearch icon */}
         </button>
         <button
-          className={`text-primary bg-white ml-2 px-4 md:block py-2 rounded-lg ${showSearch ? 'hidden' : ''}`}
+          className={`text-primary bg-white ml-2 px-4 md:block py-2 rounded-lg ${
+            showSearch ? 'hidden' : ''
+          }`}
           onClick={handleButtonClick}
         >
           {children}
@@ -71,9 +85,7 @@ export default function Navigation({ page, children }) {
   );
 }
 
-
 Navigation.propTypes = {
   children: PropTypes.node,
   page: PropTypes.string,
 };
-

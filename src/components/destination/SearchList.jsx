@@ -1,4 +1,4 @@
-import DestinationCard from './DestinationCard'; 
+import DestinationCard from './DestinationCard';
 import PropTypes from 'prop-types';
 
 function SearchList({ destinations, location }) {
@@ -11,16 +11,33 @@ function SearchList({ destinations, location }) {
 
   console.log(filteredDestinations);
 
+  if (filteredDestinations.length === 0) {
+    return (
+      <div className="min-h-screen flex justify-center mb-5">
+        <h1 className="text-xl lg:text-2xl text-center font-semibold mt-8">
+          Hasil Pencarian &quot;{location}&quot; Tidak Ditemukan
+        </h1>
+      </div>
+    );
+  }
+
   return (
-    <ul className='grid md:grid-cols-3'>
-      {filteredDestinations.map((destination) => (
-        <DestinationCard
-          key={destination.id}
-          id={destination.id}
-          {...destination}
-        />
-      ))}
-    </ul>
+    <>
+      <div className="flex justify-between">
+        <h2 className="text-xl mb-8">Hasil Pencarian &quot;{location}&quot;</h2>
+      </div>{' '}
+      <div className="flex flex-col sm:flex-row pt-">
+        <ul className="grid md:grid-cols-3">
+          {filteredDestinations.map((destination) => (
+            <DestinationCard
+              key={destination.id}
+              id={destination.id}
+              {...destination}
+            />
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 

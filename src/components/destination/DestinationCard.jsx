@@ -9,16 +9,19 @@ const truncateText = (text, maxLength) => {
 };
 
 export default function DestinationCard({ id, title, body, imageLink }) {
-  const truncatedBody = truncateText(body, 50);
+  const truncatedBody = truncateText(body, 150);
+
   return (
-    <div className="md:w-full mr-3 mb-3 px-6 py-10 rounded-lg h-[330] bg-white shadow-lg">
-      <img className="rounded-lg md:w-full md:h-[346px] object-cover mb-4" src={imageLink} alt="" />
-      <div>
-        <h1 className="text-xl font-semibold pt-">{title}</h1>
-        <p className="mb-5 w-1/3">{truncatedBody}</p>
+    <div className="flex-shrink-0 w-64 mr-3 mb-3 rounded-lg bg-white shadow-lg overflow-hidden">
+      <div className="relative" style={{ paddingTop: '56.25%' }}>
+        <img className="absolute top-0 left-0 w-full h-full object-cover rounded-t-lg" src={imageLink} alt="" />
+      </div>
+      <div className="p-4">
+        <h1 className="text-xl font-semibold">{title}</h1>
+        <p className="mb-2">{truncatedBody}</p>
         <Link to={`/detail/${id}`}>
-          <button className="bg-primary text-white px-5 py-3 rounded-lg">
-            read more
+          <button className="bg-primary text-white px-4 py-2 rounded-lg">
+            Read more
           </button>
         </Link>
       </div>

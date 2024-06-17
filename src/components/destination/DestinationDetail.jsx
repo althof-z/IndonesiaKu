@@ -28,7 +28,7 @@ function DestinationDetail() {
 
   if (!destination) {
     return (
-      <div className="container pt-20 flex flex-col justify-around md:flex-row">
+      <div className="container pt-20 pb-20 flex flex-col justify-around md:flex-row">
         <h1 className="text-2xl sm:text-3xl font-bold">
           Destination Tidak Ditemukan
         </h1>
@@ -37,7 +37,7 @@ function DestinationDetail() {
   }
 
   return (
-    <div className="container pt-20 flex flex-col justify-around md:flex-row">
+    <div className="container pt-20 pb-10 flex flex-col justify-around md:flex-row">
       <img
         className="rounded-lg h-[500px] lg:h-[700px] w-[500px] object-cover mb-3"
         src={destination.imageLink}

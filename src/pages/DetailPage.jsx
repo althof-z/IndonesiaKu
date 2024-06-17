@@ -7,7 +7,7 @@ export default function DetailPage() {
 
   return (
     <>
-      <Navigation page = {'wishlist'}>wishlist</Navigation>
+      <Navigation page = {'wishlist'}>WishList</Navigation>
       <DestinationDetail id={id} />
     </>
   );
