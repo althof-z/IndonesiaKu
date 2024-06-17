@@ -23,7 +23,7 @@ export default function SearchPage() {
         </div>
       ) : (
         <div className="">
-          <div className="px-4 pb-20 mt-12 container">
+          <div className="px-4 mt-12 container">
             <SearchList destinations={data} location={query} />
           </div>
         </div>

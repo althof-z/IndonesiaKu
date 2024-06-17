@@ -58,8 +58,8 @@ function Navigation() {
               Indonesia<span className="text-primary">Ku</span>
             </h1>
           </div>
-          <div className="flex w-full items-center justify-between px-4">
-            <div>
+          <div className="flex w-full items-center justify-between px-10">
+            <div className='px-10'>
               <button
                 id="navbarToggler"
                 className="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
@@ -71,7 +71,7 @@ function Navigation() {
               </button>
               <nav
                 id="navbarCollapse"
-                className={`absolute right-4 top-full ${
+                className={`absolute right top-full ${
                   showMenu ? 'block' : 'hidden'
                 } w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent  lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6`}
               >
@@ -90,14 +90,6 @@ function Navigation() {
                       className="ud-menu-scroll mx-8 flex py-2 text-base font-medium group-hover:text-primary dark:text lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text lg:group-hover:text lg:group-hover:opacity-70 xl:ml-10"
                     >
                       Tentang
-                    </button>
-                  </li>
-                  <li className="group relative">
-                    <button
-                      onClick={() => handleScrollLinkClick('faq')}
-                      className="ud-menu-scroll mx-8 flex py-2 text-base font-medium group-hover:text-primary dark:text lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text lg:group-hover:text lg:group-hover:opacity-70 xl:ml-10"
-                    >
-                      FAQ
                     </button>
                   </li>
                   <li className="group relative">
