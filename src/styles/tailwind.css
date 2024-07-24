@@ -418,7 +418,13 @@ Make sure disabled buttons don't get the pointer cursor.
   background-color: #a9a9a9;
 }
 
+/* Toatstify CSS */
+.toast-container {
+  position: fixed !important;
+top: 85px !important; /* Adjust this value based on your header height */
+z-index: 9999 !important; /* Ensure it's above other elements */
 
+}
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
